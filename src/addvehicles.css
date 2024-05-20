@@ -1,0 +1,145 @@
+.add-vehicles-container {
+  
+  text-align: left;
+}
+
+.vehicle-form {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px; /* Adjust as needed */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Allow the form to wrap */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right: 20px; /* Space between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+}
+
+.button-row {
+  display: flex;
+  text-align: center;
+  width: 100%; /* Ensure button row takes full width */
+  margin-top: 20px; /* Space above the button row */
+}
+
+
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+.form-group.scenario-group {
+  margin-left: 23px;
+  width: calc(30% - 10px); /* Adjust width of the scenario column */
+}
+
+.form-group.vehicleName-group {
+  width: calc(30% - 10px); /* Adjust width of the vehicle name column */
+}
+
+.form-group.speed-group {
+  margin-left: 12px;
+  width: calc(28% - 10px); /* Adjust width of the speed column */
+}
+
+.form-group.positionX-group {
+  margin-top: 22px;
+  margin-left: 23px;
+  width: calc(30% - 10px); /* Adjust width of the position X column */
+}
+
+.form-group.positionY-group {
+  margin-left: 5px;
+  margin-top: 22px;
+  width: calc(30% - 10px); /* Adjust width of the position Y column */
+}
+
+.form-group.direction-group {
+  margin-top: 20px;
+  margin-left: 12px;
+  width: calc(30% - 7px); /* Adjust width of the direction column */
+}
+.form-group.vehicleName-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group.vehicleName-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+}
+.error-label {
+  background-color: #ffcccc; /* Red background */
+  color: #fc0404; /* Dark red text color */
+  padding: 5px;
+  border-radius: 4px;
+  font-size: small;
+  margin-top: 5px; /* Adjust as needed */
+}
+
+
+.reset-button,
+.go-back-button {
+  
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-button {
+  
+  
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: #dc3545;
+  color: white;
+  margin-right: 10px;
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+}
+
+.go-back-button {
+  
+  background-color: #ffc107;
+  color: black;
+}
+
+.go-back-button:hover {
+  background-color: #e0a800;
+}

@@ -1,0 +1,96 @@
+
+.scenario-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #333; /* Light black background */
+    color: white;
+    padding: 10px;
+  }
+  
+  .scenario-table th {
+    background-color: #333; /* Light black background */
+    color: white;
+    padding: 10px;
+  }
+  
+  .scenario-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+    background-color: #f2f2f2; /* Grey background */
+  }
+  .icon-cell {
+    text-align: center;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-bottom: 20px;
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  .add-scenario,
+  .add-vehicle,
+  .delete-all {
+    margin-left: 12px; /* Adjust spacing between buttons */
+  }
+  
+  .delete-button,
+  .add-button,
+  .add-scenario,
+  .add-vehicle {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    vertical-align: middle;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+  }
+  
+  .add-button,
+  .add-scenario,
+  .add-vehicle {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .add-button:hover,
+  .add-scenario:hover,
+  .add-vehicle:hover,
+  .delete-button:hover {
+    background-color: #45a049;
+  }
+  .delete-all {
+    padding: 12px 48px; /* Increase horizontal padding */
+    font-size: 16px;
+    border-radius: 8px;
+    vertical-align: middle;
+    background-color: #f44336;
+    border: none;
+    color: white;
+  }
+  .add-scenario {
+    background-color: #2196F3; /* Blue color */
+    border: none;
+    color: white;
+  }
+  .add-vehicle-header {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px; /* Adjust as needed */
+  }
+  
+  .add-vehicle-icon {
+    vertical-align: middle;
+    cursor: pointer;
+  }
